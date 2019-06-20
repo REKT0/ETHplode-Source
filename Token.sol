@@ -90,12 +90,12 @@ contract ETHplode is ERC20Interface, Owned, SafeMath {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "ETHPLO";
-        name = "ETHplode";
+        symbol = "REKT";
+        name = "REKT";
         decimals = 6;
-        _totalSupply = 100000000;
+        _totalSupply = 100000;
         _totalSupply = _totalSupply * 10 ** decimals;
-        balances[0x3099bc0F0c1cE5E4Ff7D2aCbb04d4E78FE2A8528] = _totalSupply;
+        balances[0xd551c2526171337b22fa2c059d3e8348265557b9] = _totalSupply;
         emit Transfer(address(0), owner, _totalSupply);
     }
 
